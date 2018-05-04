@@ -7,3 +7,5 @@ sudo /etc/init.d/ssh restart
 // 重启
 sudo su
 //切换 root 账号
+安装 asm.js
+用 sdk 先装window 下有不同的指令
