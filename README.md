@@ -11,3 +11,22 @@ sudo su
 用 sdk 先装window 下有不同的指令
 c 的静态有多种数据类型 位操作补一下
 On Windows, run emsdk instead of ./emsdk, and emsdk_env.bat instead of source ./emsdk_env.sh.
+Command	Details
+sails generate model	Generate api/models/Foo.js, including attributes with the specified types if provided.
+sails generate action	Generate a standalone action.
+sails generate helper	Generate a helper at api/helpers/foo.js.
+sails generate controller	Generate api/controllers/FooController.js, including actions with the specified names if provided.
+sails generate hook	Generate a project hook in api/hooks/foo/.
+sails generate generator	Generate a foo folder containing the files necessary for building a new generator.
+sails generate response	Generate a custom response at api/responses/foo.js
+sails generate adapter	Generate a api/adapters/foo/ folder containing the files necessary for building a new adapter.
+sails generate sails.io.js	Generate a sails.io.js file at the specified location, overwriting the default sails.io.js if applicable.
+sails generate api	Generate api/models/Foo.js and api/controllers/FooController.js.
+sails generate new	Alias for sails new.
+sails generate etc	Experimental. Adds the following files to your app:
+• .gitignore 
+• .jshintrc 
+• .editorconfig 
+• .npmignore 
+• .travis.yml 
+• .appveyor.yml
