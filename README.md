@@ -1,6 +1,7 @@
-"# ubuntu-tencent" 
-sudo passwd root
-// 设密码
+# ubuntu-tencent 
+# 设密码
+ sudo passwd root
+
 nano /etc/ssh/sshd_config
 // 写配置
 sudo /etc/init.d/ssh restart
