@@ -30,5 +30,19 @@ sails generate etc	Experimental. Adds the following files to your app:
 • .npmignore 
 • .travis.yml 
 • .appveyor.yml
+# 打包exe文件
  gcc -o crc32 crc32.c
  ./crc32
+ 
+ 
+ 
+#显示当前 的git配置
+git config --list
+
+#编辑git配置
+git config -e [--global]
+
+# 设置提交代码时的用户信息
+git config [--gloal] user.name "[name]"
+git config [--gloal] user.email "email address"
+
