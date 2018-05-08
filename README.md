@@ -1,9 +1,5 @@
 
-安装 asm.js
-用 sdk 先装window 下有不同的指令
-c 的静态有多种数据类型 位操作补一下
-On Windows, run emsdk instead of ./emsdk, and emsdk_env.bat instead of source ./emsdk_env.sh.
-Command	Details
+
 sails generate model	Generate api/models/Foo.js, including attributes with the specified types if provided.
 sails generate action	Generate a standalone action.
 sails generate helper	Generate a helper at api/helpers/foo.js.
@@ -22,9 +18,7 @@ sails generate etc	Experimental. Adds the following files to your app:
 • .npmignore 
 • .travis.yml 
 • .appveyor.yml
-# 打包exe文件
- gcc -o crc32 crc32.c
- ./crc32
+
  
  
  
