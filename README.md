@@ -30,3 +30,5 @@ sails generate etc	Experimental. Adds the following files to your app:
 • .npmignore 
 • .travis.yml 
 • .appveyor.yml
+ gcc -o crc32 crc32.c
+ ./crc32
